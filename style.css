@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://i.blogs.es/5adf73/juegos-android/1366_2000.jpg");
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.button_color{
+    display: flex;
+    justify-content: space-around;
+    font: 2em sans-serif;
+    background-color: rgb(51, 169, 18);
+    border-radius: 50%;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    width: 10%;
+}
+.content_input{
+    height: 25px;
+    width: 300px;
+    font-weight: bolder;
+    
+}
+.button_color2{
+    display: flex;
+    justify-content: center;
+    font: 2em sans-serif;
+    background-color: rgb(18, 156, 169);
+    border-radius: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 10%;
+    line-height: 2;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
